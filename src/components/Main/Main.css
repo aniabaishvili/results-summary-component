@@ -1,4 +1,58 @@
+h4{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #303B59;
+}
+.flex div{
+    width: 315px;
+    height: 56px;
+    border-radius: 12px;
+}
+.main{
+    margin: auto;
+    width: 340px;
+}
 
+.flex{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
 
+button{
+    margin: 10px 0px;
+    width:315px;
+    height: 56px;
+    background-color: #303B59;
+    color:#FFF;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+    border-radius: 20px;
+    border-style: none;
+}
 
+.box1{
+   background:linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), linear-gradient(0deg, #FF5555, #FF5555);
+   ;
+}
 
+.box2{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
+    linear-gradient(0deg, #FFB21E, #FFB21E);
+    
+}
+
+.box3{
+   background:linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
+    linear-gradient(0deg, #00BB8F, #00BB8F);
+ ;
+}
+
+.box4{
+   background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
+    linear-gradient(0deg, #1125D6, #1125D6);
+    
+}

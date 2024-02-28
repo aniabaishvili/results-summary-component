@@ -10,4 +10,16 @@ body {
   
 }
 
+@media screen and (min-width:568px){
+     .container{
+          display: flex;
+     }
+
+     body{
+          display: flex;
+          margin: auto;
+          justify-content: center;
+          align-items: center;
+     }
+}
 

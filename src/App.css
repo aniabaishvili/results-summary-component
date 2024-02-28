@@ -3,3 +3,15 @@ body{
     padding: 0;
     height: 100vh;
 }
+
+@media screen and (min-width:568px){
+    body{
+        background: #ECF2FF;
+    }
+}
+
+
+
+
+
+

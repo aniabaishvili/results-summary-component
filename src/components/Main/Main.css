@@ -136,6 +136,12 @@ span{
         margin: 8px auto 10px auto;
     }
 
+    button:hover{
+        cursor: pointer;
+        background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+
+    }
+
     .numbers-div{
         width:60px;
         transform: translateX(30px);

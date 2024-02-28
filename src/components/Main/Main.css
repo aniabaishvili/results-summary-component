@@ -5,7 +5,7 @@ h4{
     color: #303B59;
 }
 .flex div{
-    width: 315px;
+    
     height: 56px;
     border-radius: 12px;
 }
@@ -21,8 +21,11 @@ h4{
 }
 
 button{
-    margin: 10px 0px;
-    width:315px;
+    margin: 10px auto auto auto ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width:340px;
     height: 56px;
     background-color: #303B59;
     color:#FFF;
@@ -37,22 +40,76 @@ button{
 .box1{
    background:linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), linear-gradient(0deg, #FF5555, #FF5555);
    ;
+   display: flex;
+   justify-content: space-between;
 }
 
 .box2{
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
     linear-gradient(0deg, #FFB21E, #FFB21E);
-    
+    display: flex;
+    justify-content: space-between;
 }
 
 .box3{
    background:linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
     linear-gradient(0deg, #00BB8F, #00BB8F);
  ;
+ display: flex;
+ justify-content: space-between;
 }
 
 .box4{
    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
     linear-gradient(0deg, #1125D6, #1125D6);
+    display: flex;
+    justify-content: space-between;
     
+}
+
+#reaction{
+    color:#FF5555;
+}
+
+#memory{
+    color:#FFB21E;
+    
+}
+
+#verbal{
+    color: #00BB8F;
+    
+}
+
+#visual{
+    color: #1125D6;
+}
+
+img{
+    margin:17px 0px 0px 15px;
+    
+}
+
+#reaction, #verbal, #visual, #memory{
+    position: relative;
+    bottom:4px;
+    left: 6px;
+   
+}
+
+.numbers{
+    color: #303B59;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+span{
+    color: #303B59;
+    font-size: 16px;
+    line-height: 20px;
+    opacity: 60%;
+}
+
+.numbers-div{
+    width:64px;
 }

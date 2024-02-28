@@ -13,6 +13,9 @@ body {
 @media screen and (min-width:568px){
      .container{
           display: flex;
+          background-color: #FFF;
+          border-top-left-radius:32px;
+          border-bottom-left-radius: 32px;
      }
 
      body{

@@ -14,8 +14,7 @@ body {
      .container{
           display: flex;
           background-color: #FFF;
-          border-top-left-radius:32px;
-          border-bottom-left-radius: 32px;
+          border-radius: 32px;
      }
 
      body{
